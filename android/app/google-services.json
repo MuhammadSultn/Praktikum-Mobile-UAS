@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "565372809553",
+    "project_id": "gamingreview-cbfc6",
+    "storage_bucket": "gamingreview-cbfc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565372809553:android:ea72d287a5320005ff2370",
+        "android_client_info": {
+          "package_name": "com.example.gaming_review"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5mGKdzyIricH2kiFNK-zXHnx9VK5uma4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565372809553:android:798ba1dc41288a54ff2370",
+        "android_client_info": {
+          "package_name": "com.example.praktikum_api_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5mGKdzyIricH2kiFNK-zXHnx9VK5uma4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
