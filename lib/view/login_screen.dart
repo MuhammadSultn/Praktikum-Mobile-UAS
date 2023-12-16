@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:gaming_review/view/home_user.dart';
+import 'package:gaming_review/view/home_screen.dart';
 import 'package:gaming_review/screens/screen.dart';
 import 'package:gaming_review/viewmodel/firebase_auth_service.dart';
 
@@ -39,7 +39,7 @@ class _Login_ScreenState extends State<Login_Screen> {
         ),
       );
       Navigator.push(
-          context, MaterialPageRoute(builder: (context) => homeUser()));
+          context, MaterialPageRoute(builder: (context) => HomeScreen()));
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(

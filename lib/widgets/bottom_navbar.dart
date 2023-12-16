@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:gaming_review/view/home_user.dart';
+import 'package:gaming_review/view/home_screen.dart';
+import 'package:gaming_review/view/discover_user.dart';
 import 'package:gaming_review/view/profile_screen.dart';
-import 'package:gaming_review/view/onboard_screen.dart';
+
 
 
 class BottomNavbar extends StatelessWidget {
@@ -26,7 +27,7 @@ class BottomNavbar extends StatelessWidget {
                 margin: const EdgeInsets.only(left: 50),
                 child: IconButton(
                   onPressed: () {
-                    Navigator.pushNamed(context, onboard.routeName);
+                    Navigator.pushNamed(context, HomeScreen.routeName);
                   },
                   icon: const Icon(Icons.home),
                 ),
@@ -37,7 +38,7 @@ class BottomNavbar extends StatelessWidget {
                 margin: const EdgeInsets.only(right: 50),
                 child: IconButton(
                   onPressed: () {
-                    Navigator.pushNamed(context, homeUser.routeName);
+                    Navigator.pushNamed(context, discover.routeName);
                   },
                   icon: const Icon(Icons.search),
                 ),

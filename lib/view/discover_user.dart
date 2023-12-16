@@ -5,16 +5,16 @@ import 'package:gaming_review/viewmodel/firestore_service.dart';
 import 'package:gaming_review/widgets/image_container.dart';
 import 'package:gaming_review/widgets/bottom_navbar.dart';
 
-class homeUser extends StatefulWidget {
-  const homeUser({Key? key}) : super(key: key);
+class discover extends StatefulWidget {
+  const discover({Key? key}) : super(key: key);
 
   static const routeName = '/search';
 
   @override
-  State<homeUser> createState() => _homeUserState();
+  State<discover> createState() => _discoverState();
 }
 
-class _homeUserState extends State<homeUser> {
+class _discoverState extends State<discover> {
   @override
   Widget build(BuildContext context) {
     List<String> tabs = ['Action', 'Racing', 'OpenWorld', 'Rpg', 'Tactikal'];
@@ -253,7 +253,7 @@ class _DiscoverGameState extends State<_DiscoverGame> {
         const SizedBox(
           height: 5,
         ),
-        Text('REVIEW', style: Theme.of(context).textTheme.bodySmall),
+        Text('NEWS', style: Theme.of(context).textTheme.bodySmall),
         SizedBox(
           height: 15,
         ),

@@ -1,7 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:gaming_review/firebase_options.dart';
-import 'package:gaming_review/view/home_user.dart';
+import 'package:gaming_review/view/home_screen.dart';
+import 'package:gaming_review/view/discover_user.dart';
 import 'package:gaming_review/view/login_screen.dart';
 import 'package:gaming_review/view/onboard_screen.dart';
 import 'package:gaming_review/view/profile_screen.dart';
@@ -35,7 +36,8 @@ class MyApp extends StatelessWidget {
       routes: {
         Login_Screen.routeName: (context) => const Login_Screen(),
         onboard.routeName: (context) => const onboard(),
-        homeUser.routeName: (context) => const homeUser(),
+        HomeScreen.routeName: (context) => const HomeScreen(),
+        discover.routeName: (context) => const discover(),
         ArticleScreen.routeName: (context) => const ArticleScreen(),
         Profile_screen.routeName:(context) => const Profile_screen(),
       },
